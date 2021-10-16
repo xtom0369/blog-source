@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: xtom
+title: xtom's blog
 subtitle: ''
 description: ''
 keywords:
@@ -105,3 +105,9 @@ deploy:
   type: git
   repository: https://github.com/xtom0369/xtom0369.github.io
   branch: master
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
