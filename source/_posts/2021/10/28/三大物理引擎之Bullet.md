@@ -22,7 +22,7 @@ categories:
 
 ### 为什么是Bullet？
 
-主要是项目接入的是Bullet，有一定的使用经验，另外Bullet的优点是项目结构相对简单，接入方便。当然unity用的是[PhyX](https://developer.nvidia.com/physx-sdk)，后续有机会也会开PhyX的坑。
+主要是项目接入的是Bullet，有一定的使用经验，另外Bullet的优点是项目结构相对简单，接入方便。当然Unity用的是[PhyX](https://developer.nvidia.com/physx-sdk)，后续有机会也会开PhyX的坑。
 
 ## <font color=#64EBC1>What</font>
 
@@ -59,6 +59,9 @@ categories:
 
     这是一个Unity版的Bullet插件，有[github](https://github.com/Phong13/BulletSharpUnity3d)版本，插件里将大量的C++接口暴露到了C#层，所以可以学到很多Bullet的概念，以及基础功能的实现。另外里面的bullet的dll是使用另一个github工程[BulletSharpPInvoke](https://github.com/Phong13/BulletSharpPInvoke)编译出来的，更底层的代码还是得看编译工程。
 
+    - {% post_link BulletPhysicsForUnity下载和安装 下载和安装 %}
+
+
   - [bullet3](https://github.com/bulletphysics/bullet3)
 
     bullet的github仓库，根据教程编译出vs工程，设置启动项目，运行VS即可看到demo工程。
@@ -72,6 +75,6 @@ categories:
     撸完1和2，对bullet的使用也大概有个底了，就可以直接撸源码了。
 
 
-    未完待续 ...
+未完待续 ...
     
 
