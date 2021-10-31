@@ -51,6 +51,9 @@ categories:
 
   - [快速使用文档](https://github.com/bulletphysics/bullet3/blob/master/docs/BulletQuickstart.pdf)
 
+    - {% post_link Bullet文档之《Bullet-User-Manual》阅读笔记 《Bullet-User-Manual》阅读笔记 %}
+
+
   - [用户手册](https://github.com/bulletphysics/bullet3/blob/master/docs/Bullet_User_Manual.pdf) 
 
 2. Demo
