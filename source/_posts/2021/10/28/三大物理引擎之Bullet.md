@@ -51,16 +51,18 @@ categories:
 
   - [快速使用文档](https://github.com/bulletphysics/bullet3/blob/master/docs/BulletQuickstart.pdf)
 
+  - [用户手册](https://github.com/bulletphysics/bullet3/blob/master/docs/Bullet_User_Manual.pdf) 
+
     - {% post_link Bullet文档之《Bullet-User-Manual》阅读笔记 《Bullet-User-Manual》阅读笔记 %}
 
-
-  - [用户手册](https://github.com/bulletphysics/bullet3/blob/master/docs/Bullet_User_Manual.pdf) 
 
 2. Demo
    
   - [BulletPhysicsForUnity](https://assetstore.unity.com/packages/tools/physics/bullet-physics-for-unity-62991?locale=zh-CN)
 
     这是一个Unity版的Bullet插件，有[github](https://github.com/Phong13/BulletSharpUnity3d)版本，插件里将大量的C++接口暴露到了C#层，所以可以学到很多Bullet的概念，以及基础功能的实现。另外里面的bullet的dll是使用另一个github工程[BulletSharpPInvoke](https://github.com/Phong13/BulletSharpPInvoke)编译出来的，更底层的代码还是得看编译工程。
+
+    - {% post_link BulletPhysicsForUnity官方文档 官方文档 %}
 
     - {% post_link BulletPhysicsForUnity下载和安装 下载和安装 %}
 
