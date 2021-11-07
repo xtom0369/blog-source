@@ -3,12 +3,12 @@ title: BulletPhysicsForUnity下载和安装
 date: 2021-10-31 17:41:01
 tags:
 - BulletPhysicsForUnity
-- bullet physics
-- physics
-- unity
+- Bullet Physics
+- Physics
+- Unity
 categories:
-- physics
-- unity
+- Physics
+- Unity
 ---
 
 ## <font color=#64EBC1>前言</font>

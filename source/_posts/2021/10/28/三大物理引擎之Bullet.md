@@ -2,12 +2,12 @@
 title: 三大物理引擎之Bullet
 date: 2021-10-28 22:38:04
 tags:
-- bullet physics
-- physics
-- unity
+- Bullet Physics
+- Physics
+- Unity
 categories:
-- physics
-- unity
+- Physics
+- Unity
 ---
 
 ## <font color=#64EBC1>Why</font>
