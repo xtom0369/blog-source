@@ -40,6 +40,8 @@ AStarPath的核心概念是Graph，Graph可以理解为一张自定义生成导�
 
 - Recast Graph
 
+#### 使用流程
+
 场景ExampleScenes\Example3_Recast_Navmesh1中是Recast Graph的简单用法。
 
 ![RecastGraph](RecastGraph.png)
@@ -56,7 +58,7 @@ AStarPath的核心概念是Graph，Graph可以理解为一张自定义生成导�
 
 ![Scan](Scan.png)
 
-然后Scan后的数据放在哪里？实际上此时的数据只在内存中，想要保存成文件有插件提供了两种方式，**Save和Cache**。
+然后Scan后的数据放在哪里？实际上此时的数据只在内存中，想要保存成文件有插件提供了两种方式，**Save和Cache**【[官方文档](https://arongranberg.com/astar/docs/saveloadgraphs.html)】。
 
 ![Save](Save.png)
 
@@ -78,6 +80,13 @@ protected override void Awake () {
 可以得知想要不触发运行时扫描只需要关闭**scanOnStartup**或打开**cacheStartup**缓存开关或设置缓存文件，对应着下图的三个选项。<font color=#F46224>需要注意的是，如果选择的是保存文件，需要另外把二进制文件设置到图中的③处缓存才会生效</font>
 
 ![ScanOnStartup](ScanOnStartup.png)
+
+#### 参数解析
+
+![RecastGraphInspector](RecastGraphInspector.png)
+
+#### 源码解析
+
 
 
 - Grid Graph
