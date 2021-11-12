@@ -87,6 +87,20 @@ protected override void Awake () {
 
 #### 源码解析
 
+扫描流程
+
+AStarPathEditor.MenuScan
+
+AstarPath.ScanAsync
+
+AstarPath.ScanGraph
+
+NavGraph.IGraphInternals.ScanInternal
+
+RecastGraph.ScanInternal
+
+RecastGraph.ScanAllTiles
+
 https://arongranberg.com/astar/docs/recastgraph.html
 
 
