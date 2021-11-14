@@ -101,6 +101,16 @@ RecastGraph.ScanInternal
 
 RecastGraph.ScanAllTiles
 
+疑问：
+
+用不用Tiles有什么区别？
+
+如何使用内置多线程？
+
+A*的Voxel（体素）是什么意思
+
+资料：
+
 https://arongranberg.com/astar/docs/recastgraph.html
 
 https://zhuanlan.zhihu.com/p/75175208
