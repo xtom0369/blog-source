@@ -107,7 +107,13 @@ RecastGraph.ScanAllTiles
 
 如何使用内置多线程？
 
-A*的Voxel（体素）是什么意思
+A*的Voxel（体素）是什么意思？
+
+Int3是定点数的作用么？
+
+VoxelContour.verts的三个点组成一个顶点的xyz，为什么要每隔三个留一个空？
+
+verts[vertexIndex] = new Int3(cont.verts[j*4], cont.verts[j*4+1], cont.verts[j*4+2]);
 
 资料：
 
