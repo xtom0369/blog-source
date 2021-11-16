@@ -101,6 +101,8 @@ RecastGraph.ScanInternal
 
 RecastGraph.ScanAllTiles
 
+Voxelize.BuildContours方法只是收集的顶点，Voxelize.BuildPolyMesh方法是将顶点拼接成三角形
+
 疑问：
 
 用不用Tiles有什么区别？
@@ -114,6 +116,8 @@ Int3是定点数的作用么？
 VoxelContour.verts的三个点组成一个顶点的xyz，为什么要每隔三个留一个空？
 
 verts[vertexIndex] = new Int3(cont.verts[j*4], cont.verts[j*4+1], cont.verts[j*4+2]);
+
+Diagonal()是否对线是什么意思？
 
 资料：
 
