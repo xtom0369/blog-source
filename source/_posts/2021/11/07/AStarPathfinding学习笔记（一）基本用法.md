@@ -119,6 +119,8 @@ verts[vertexIndex] = new Int3(cont.verts[j*4], cont.verts[j*4+1], cont.verts[j*4
 
 Diagonal()是否对线是什么意思？
 
+16进制的位运算？ & 0x0fffffff的作用是什么？
+
 资料：
 
 https://arongranberg.com/astar/docs/recastgraph.html
