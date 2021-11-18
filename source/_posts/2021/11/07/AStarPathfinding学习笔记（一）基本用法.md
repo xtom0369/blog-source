@@ -119,7 +119,7 @@ verts[vertexIndex] = new Int3(cont.verts[j*4], cont.verts[j*4+1], cont.verts[j*4
 
 Diagonal()是否对线是什么意思？
 
-16进制的位运算？ & 0x0fffffff的作用是什么？
+16进制的位运算？ & 0x0fffffff的作用是什么？如何进行16进制或者其他进制的位运算
 
 资料：
 
