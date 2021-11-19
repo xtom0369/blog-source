@@ -119,7 +119,10 @@ verts[vertexIndex] = new Int3(cont.verts[j*4], cont.verts[j*4+1], cont.verts[j*4
 
 Diagonal()是否对线是什么意思？
 
-16进制的位运算？ & 0x0fffffff的作用是什么？如何进行16进制或者其他进制的位运算
+16进制的位运算？ & 0x0fffffff的作用是什么？如何进行16进制或者其他进制的位运算（& 0x0fffffff的作用是是保留后28位，和0x40000000配合使用，为什么要这要处理还没搞清楚）
+
+Recast会将地图拆分为多个Tile（瓷砖，好像也没毛病），每个Tile再利用BuildPolyMesh计算出对应的mesh，mesh由多个三角形组成。
+
 
 资料：
 
