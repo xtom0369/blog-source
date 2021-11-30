@@ -1,5 +1,5 @@
 ---
-title: Game Physics: Introduction & Acknowledgements【译】
+title: Game Physics Introduction & Acknowledgements【译】
 date: 2021-11-24 21:32:11
 tags:
 - Physics Engine
